@@ -19,6 +19,9 @@
 set background=dark
 hi clear
 
+" Patching to prevent flash of gray while using vim-gitgutter
+highlight clear SignColumn
+
 if exists("syntax_on")
   syntax reset
 endif
